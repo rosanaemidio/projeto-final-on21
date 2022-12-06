@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Projeto final desenvolvido durante a ultima semana do curso de JavaScript avançado da Reprograma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosanaemidio/projeto-final-on21.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosanaemidio/projeto-final-on21/issues"
+  },
+  "homepage": "https://github.com/rosanaemidio/projeto-final-on21#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
