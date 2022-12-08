@@ -1,4 +1,3 @@
-
 class Adotante {
     constructor(name, age, profission, status, moradia){
         this.name = name;
