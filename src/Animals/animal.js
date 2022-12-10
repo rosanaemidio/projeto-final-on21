@@ -1,5 +1,6 @@
 class Animal{
-    constructor(type, name, age, family, color, sexo){
+    constructor(id, type, name, age, family, color, sexo){
+        this.id = id;
         this.type = type;
         this.name = name;
         this.age = age;

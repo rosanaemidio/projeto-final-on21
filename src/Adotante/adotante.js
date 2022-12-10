@@ -1,15 +1,15 @@
 class Adotante {
-    constructor(name, age, profission, status, moradia){
+    constructor(id, name, age, profission, moradia){
+        this.id = id;
         this.name = name;
         this.age = age;
         this.profission = profission;
-        this.status = status;
         this.moradia = moradia;
     }
 
-    // validaDados(name, age, profission, moradia){
-    //     if(age)
-    // }
+//    if( <= 17){
+
+//    }
 }
 
 module.exports = Adotante;

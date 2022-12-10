@@ -14,7 +14,7 @@ describe('Animal', () => {
         expect(animal.type).toBe('Gato')
     })
     test('Verificar se o animal possui todas as informações', () => {
-        const animal = new Animal('Gato', 'Chico', '7 anos','Felinos','Laranja', 'Dócil', 'macho')
-        expect(animal).toEqual({"type": "Gato", "name": "Chico","age": "7 anos","family": "Felinos", "color": "Laranja", "humor": "Dócil","sexo": "macho"})
+        const animal = new Animal('Chico', '7 anos','Felinos','Laranja', 'macho')
+        expect(animal).toEqual({"name": "Chico","age": "7 anos","family": "Felinos","color": "Laranja","sexo": "macho"})
     })
 })
