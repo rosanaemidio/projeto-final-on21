@@ -1,4 +1,4 @@
-const Animal = require('./animal')
+const Animal = require('../src/model/animal')
 
 describe('Animal', () => {
     test('Verificar se a classe foi instanciada', () => {

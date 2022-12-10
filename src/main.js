@@ -1,7 +1,7 @@
-const adocao = require('./Adoption/adocao');
-const Adotante = require('./Adotante/adotante');
-const Gato = require('./Animals/gato');
-const Cao = require('./Animals/cao');
+const adocao = require('./controller/adocao');
+const Adotante = require('./model/Adotante/adotante');
+const Gato = require('./services/Animals/gato');
+const Cao = require('./services/Animals/cao');
 
 const adotante1 = new Adotante("Noelia", 33, "Programadora", "Apartamento");
 const adotante2 = new Adotante("Ben", 16, "Estudante", "Apartamento" );
