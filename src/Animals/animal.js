@@ -1,12 +1,10 @@
 class Animal{
-    constructor(id, type, name, age, family, color, sexo){
-        this.id = id;
-        this.type = type;
-        this.name = name;
-        this.age = age;
-        this.family = family;
-        this.color = color;
-        this.sexo = sexo;
+    constructor( nome, idade, familia, cor, sexo){
+        nome = this.nome;
+        idade = this.idade;
+        familia = this.familia;
+        cor = this.cor;
+        sexo = this.sexo;
     }
 }
 

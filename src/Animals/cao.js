@@ -1,19 +1,19 @@
 const Animal = require('./animal')
 
-class Cao extends Animal{
-    constructor(id, nome, idade, familia, cor, sexo){
-        super( id, nome,idade, familia, cor, sexo);
+class Cao extends Animal {
+    constructor(nome, idade, familia, cor, sexo) {
+        super(nome, idade, familia, cor, sexo);
 
-        this.constructor.caoList.push({
-            id: this.id, 
-            nome: this.nome,
-            idade: this.idade, 
-            familia: this.familia,
-            cor: this.cor,
-            sexo: this.sexo,
-        })
+        nome: this.nome;
+        idade: this.idade;
+        familia: this.familia;
+        cor: this.cor;
+        sexo: this.sexo;
+
+        Cao.caoList.push(this);
+
     }
-   static caoList = []; 
+    static caoList = [];
 }
 
 module.exports = Cao;
