@@ -1,6 +1,6 @@
 const readline = require("readline-sync");
-const Gato = require('../services/Animals/gato');
-const Cao = require('../services/Animals/cao');
+const Gato = require('../services/Animais/gato');
+const Cao = require('../services/Animais/cao');
 
 console.clear();
 
