@@ -7,9 +7,7 @@ class Adotante {
         this.moradia = moradia;
     }
 
-//    if( <= 17){
 
-//    }
 }
 
 module.exports = Adotante;
