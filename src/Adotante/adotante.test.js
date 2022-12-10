@@ -13,7 +13,6 @@ describe('Adotante', () => {
         const adotante = new Adotante("Maria", 27)
         expect(adotante.age).toBeDefined()
     })
-
     test('Deve ter profissão', () => {
         const adotante = new Adotante("Maria", 27, "Empreendedora")
         expect(adotante.profission).toBeDefined()
